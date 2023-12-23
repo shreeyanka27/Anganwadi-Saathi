@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- aos css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial;
+        margin: 0 auto;
+        /* Center website */
+        max-width: 800px;
+        /* Max width */
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+
+    .fa {
+        font-size: 25px;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    /* Three column layout */
+    .side {
+        float: left;
+        width: 15%;
+        margin-top: 10px;
+    }
+
+    .middle {
+        margin-top: 10px;
+        float: left;
+        width: 70%;
+    }
+
+    /* Place text to the right */
+    .right {
+        text-align: right;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* The bar container */
+    .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+    }
+
+    /* Individual bars */
+    .bar-5 {
+        width: 60%;
+        height: 18px;
+        background-color: #04AA6D;
+    }
+
+    .bar-4 {
+        width: 30%;
+        height: 18px;
+        background-color: #2196F3;
+    }
+
+    .bar-3 {
+        width: 10%;
+        height: 18px;
+        background-color: #00bcd4;
+    }
+
+    .bar-2 {
+        width: 4%;
+        height: 18px;
+        background-color: #ff9800;
+    }
+
+    .bar-1 {
+        width: 15%;
+        height: 18px;
+        background-color: #f44336;
+    }
+
+    /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+    @media (max-width: 400px) {
+
+        .side,
+        .middle {
+            width: 100%;
+        }
+
+        .right {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="container">
+
+            <a href="#" class="logo"><img src="img/logo.jpg" alt=""></a>
+
+            <nav class="nav">
+                <ul>
+                    <div class="dropdown">
+                        <li id="resources"><a href="">resources</a></li>
+                        <div class="dropdown-content">
+                            <a href="resource.html">pregnancy</a>
+                            <a href="resource.html">new born</a>
+                            <a href="resource.html">Age 1-3</a>
+                        </div>
+                    </div>
+                    <li><a href="feedback\index.html">form</a></li>
+                    <button class="log-btn">
+                        <h4>Logout <i class="fa-solid fa-right-from-bracket"></h4></i>
+                    </button>
+
+                </ul>
+            </nav>
+
+            <div class="fas fa-bars"></div>
+
+        </div>
+
+    </header>
+
+    <section>
+        <div class="pricing-box-container">
+            <div class="pricing-box text-center">
+                <h5 class="work" title="Number of Customers">Workers</h5>
+                <h3 class="count">1000</h3>
+
+            </div>
+
+            <div class="pricing-box text-center">
+                <h5 class="work" title="Number of Customers">Patients</h5>
+                <h3 class="count">1000</h3>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="star">
+        <span class="heading m-heading">Mother's Rating</span>
+
+    </div>
+    <div class="reviews">
+
+        <hr style="border:3px solid #f1f1f1">
+
+        <div class="row">
+            <div class="side">
+                <div>
+                    <h5>excellent</h5>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-5"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="cnt">150</div>
+            </div>
+            <div class="side">
+                <div>
+                    <h5>good</h5>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-4"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="cnt">63</div>
+            </div>
+            <div class="side">
+                <div>
+                    <h5>okay</h5>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-3"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="cnt">15</div>
+            </div>
+            <div class="side">
+                <div>
+                    <h5>bad</h5>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-2"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="cnt">6</div>
+            </div>
+            <div class="side">
+                <div>
+                    <h5>poor</h5>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-1"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="cnt">20</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header section ends  -->
+    <!-- announcement section -->
+    <div class="card text-center"style="margin-top:7rem ;">
+        <div class="card-header text-center" style="font-weight: bold;font-size: 2rem; margin-top: 2.5rem;">
+            Announcement
+        </div>
+        <div class="card-body">
+            <div class="exg" style="display: flex">
+                <p style="padding: 3px;font-size: 2rem;">Enter here : </p>
+                <input style="height:3.8rem;Width:50rem;background-color: rgb(241, 241, 241);color: black;font-size: 2rem;">
+            </div>
+        </div>
+        <div class="text-center">
+            <button style="width:100px;height:40px;border-radius: 5px;font-size: 1.5rem;margin-bottom: 5rem; "
+                class=" post ">POST</button>
+        </div>
+    </div>
+
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- aos js file cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- custom js link  -->
+    <script src="index.js"></script>
+
+
+    <script>
+
+        AOS.init({
+            duration: 1000,
+            delay: 400
+        });
+
+    </script>
+
+</body>
+
+</html>
